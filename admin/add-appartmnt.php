@@ -24,10 +24,10 @@
     <title>Het Zeeuwse Zeehondje</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="../css/clean-blog.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -80,7 +80,7 @@
 
 <!-- Page Header -->
 <!-- Set your background image for this header on the line below. -->
-<header class="intro-header" style="background-image: url('img/vlissingen/vlissingen_boulevard1.jpg')">
+<header class="intro-header" style="background-image: url('../img/vlissingen/vlissingen_boulevard1.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -99,7 +99,7 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <p>
-                heb je vragen over de appartementen of over de omgeving. mail me gerust en ik probeer binnen 1 jaar te antwoorden.
+                Voeg een appartement toe
             </p>
             <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
             <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
@@ -108,14 +108,14 @@
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <label>Naam</label>
-                        <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Voer je naam in">
+                        <input type="text" class="form-control" placeholder="Naam" id="name" required data-validation-required-message="Voer je naam in">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <label>Aantal Kamers</label>
-                        <input type="text" class="form-control" placeholder="Name" id="" required data-validation-required-message="Voer het aantal kamers in">
+                        <input type="number" class="form-control" placeholder="Aantal Kamers" id="room" required data-validation-required-message="Voer het aantal kamers in">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
@@ -123,14 +123,14 @@
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <label>Aantal Personen</label>
-                        <input type="number" class="form-control" placeholder="People" id="people" required data-validation-required-message="Voer het aantal personen in">
+                        <input type="number" class="form-control" placeholder="Aantal personen" id="people" required data-validation-required-message="Voer het aantal personen in">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <label>Prijs</label>
-                        <input type="number" class="form-control" placeholder="Prijs id="price" required data-validation-required-message="Voer je prijs in">
+                        <input type="number" class="form-control" placeholder="Prijs" id="price" required data-validation-required-message="Voer je prijs in">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
