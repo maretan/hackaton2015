@@ -5,6 +5,7 @@
  * Date: 11/11/15
  * Time: 3:44 PM
  */
+include_once '../includes/dbConnect.php';
 ?>
 
 <?php
@@ -93,6 +94,65 @@
         </div>
     </div>
 </header>
+<?php
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+require_once '../includes/dbConnect.php';
+
+    $naam = $_POST['name'];
+    $kamers = $_POST['rooms'];
+    $price = $_POST['price'];
+    $people = $_POST['people'];
+    $notes = $_POST['message'];
+
+    $sql = "SELECT ID FROM Appartments WHERE Naam = '".$naam."'";
+
+
+
+if(mysqli_num_rows($mysqli->query($sql)) == 0) {
+
+    $sql = "INSERT INTO Appartment (Naam, Kamers, Prijs, Personen, Notes)
+            VALUES ('" . $naam . "' , '" . $kamers . "' , '" . $people .  "','" . $price . "' , '" . $notes . "')";
+    if ($mysqli->query($sql) == TRUE) {
+        echo '<div id="wrapper">
+                <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                            <div class="col-lg-2"></div>
+                                <div class="col-lg-5">';
+        echo '<div class="alert alert-success" role="alert">Bedankt voor het aanvullen van de gegevens, ze zijn succesvol verwerkt!</div>';
+        echo "<p>Of klik <a href=" . $_SERVER['REQUEST_URI'] . ">hier</a> om nog een bedrag toe te voegen.";
+        echo '</div></div></div></div></div></div>';
+    } else {
+        echo '<div id="wrapper">
+                <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                            <div class="col-lg-2"></div>
+                                <div class="col-lg-5">';
+        echo '<div class="alert alert-danger" role="alert">Het lijkt er op alsof er een fout is met de verbinding van de database...</div>';
+        echo "<p>Klik <a href=" . $_SERVER['REQUEST_URI'] . ">hier</a> om het opnieuw te proberen.</p>";
+        echo '</div></div></div></div></div></div>';
+    }
+}else{
+    echo '<div id="wrapper">
+                <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-5">';
+    echo '<div class="alert alert-danger" role="alert">Lokaal bestaat al!</div>';
+    echo "<p>Klik <a href=" . $_SERVER['REQUEST_URI'] . ">hier</a> om het opnieuw te proberen.</p>";
+    echo '</div></div></div></div></div></div>';
+}
+
+} else {
+?>
+
 
 <!-- Main Content -->
 <div class="container">
@@ -104,18 +164,22 @@
             <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
             <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
             <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
-            <form name="sentMessage" id="contactForm" novalidate>
+            <form name="add-appartment" id="add-appartment" method="POST" novalidate>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <label>Naam</label>
-                        <input type="text" class="form-control" placeholder="Naam" id="name" required data-validation-required-message="Voer je naam in">
+                        <input type="text" class="form-control" placeholder="Naam" id="name" name="name" required
+                               data-validation-required-message="Voer je naam in">
+
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <label>Aantal Kamers</label>
-                        <input type="number" class="form-control" placeholder="Aantal Kamers" id="room" required data-validation-required-message="Voer het aantal kamers in">
+                        <input type="number" class="form-control" placeholder="Aantal Kamers" id="rooms" name="rooms" required
+                               data-validation-required-message="Voer het aantal kamers in">
+
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
@@ -123,25 +187,32 @@
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <label>Aantal Personen</label>
-                        <input type="number" class="form-control" placeholder="Aantal personen" id="people" required data-validation-required-message="Voer het aantal personen in">
+                        <input type="number" class="form-control" placeholder="Aantal personen" id="people" name="people" required
+                               data-validation-required-message="Voer het aantal personen in">
+
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <label>Prijs</label>
-                        <input type="number" class="form-control" placeholder="Prijs" id="price" required data-validation-required-message="Voer je prijs in">
+                        <input type="number" class="form-control" placeholder="Prijs" id="price" name="price" required
+                               data-validation-required-message="Voer je prijs in">
+
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <label>Notes</label>
-                        <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Voer je text in"></textarea>
+                        <textarea rows="5" class="form-control" placeholder="Message" id="message" name="message" required
+                                  data-validation-required-message="Voer je text in"></textarea>
+
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <br>
+
                 <div id="success"></div>
                 <div class="row">
                     <div class="form-group col-xs-12">
@@ -202,7 +273,8 @@
 <script src="js/clean-blog.min.js"></script>
 
 </body>
+<?php
+}
+?>
 
 </html>
-
-
