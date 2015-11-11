@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4117f38e-089d-4764-8e03-42985ad77641" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reserveren.html" afterPath="$PROJECT_DIR$/reserveren.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/dbConnect.php" afterPath="$PROJECT_DIR$/includes/dbConnect.php" />
     </list>
     <ignored path="hackaton2015.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -105,50 +102,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reserveren.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reserveren.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reserveren.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6786543">
-              <caret line="277" column="1" selection-start-line="277" selection-start-column="1" selection-end-line="277" selection-end-column="1" />
+            <state vertical-scroll-proportion="-1.2156863">
+              <caret line="146" column="56" selection-start-line="146" selection-start-column="56" selection-end-line="146" selection-end-column="56" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="false" />
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1447258482702" expanded="true" signature="3713:3752" placeholder="SELECT ID FR..Entry..." />
-                <marker date="1447258482702" expanded="true" signature="3713:3782" placeholder="SELECT ID FR..Entry..." />
-                <marker date="1447258482702" expanded="true" signature="3713:3794" placeholder="SELECT ID FR..Entry..." />
-                <marker date="1447258482702" expanded="true" signature="3713:3796" placeholder="SELECT ID FR..Entry..." />
-                <marker date="1447258482702" expanded="true" signature="3872:4083" placeholder="INSERT INTO Appartments..." />
-                <marker date="1447258482702" expanded="true" signature="4165:4500" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="4199:4500" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="4239:4500" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="4293:4500" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="4342:4500" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="4388:4500" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="4870:5205" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="4904:5205" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="4944:5205" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="4998:5205" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="5047:5205" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="5093:5205" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="5572:5850" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="5606:5850" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="5646:5850" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="5700:5850" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="5749:5850" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="5795:5850" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="6274:6332" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="9849:9865" placeholder="..." />
-                <marker date="1447258482702" expanded="true" signature="10058:10091" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="3713:3752" placeholder="SELECT ID FR..Entry..." />
+                <marker date="1447259103482" expanded="true" signature="3713:3781" placeholder="SELECT ID FR..Entry..." />
+                <marker date="1447259103482" expanded="true" signature="3713:3793" placeholder="SELECT ID FR..Entry..." />
+                <marker date="1447259103482" expanded="true" signature="3713:3795" placeholder="SELECT ID FR..Entry..." />
+                <marker date="1447259103482" expanded="true" signature="3871:4082" placeholder="INSERT INTO Appartments..." />
+                <marker date="1447259103482" expanded="true" signature="4164:4499" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="4198:4499" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="4238:4499" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="4292:4499" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="4341:4499" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="4387:4499" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="4869:5204" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="4903:5204" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="4943:5204" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="4997:5204" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="5046:5204" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="5092:5204" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="5571:5849" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="5605:5849" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="5645:5849" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="5699:5849" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="5748:5849" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="5794:5849" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="6273:6331" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="9848:9864" placeholder="..." />
+                <marker date="1447259103482" expanded="true" signature="10057:10090" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbConnect.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dbConnect.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/dbConnect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.28998244">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -171,9 +168,9 @@
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/admin/del_appartment.php" />
         <option value="$PROJECT_DIR$/admin/add_appartment.php" />
-        <option value="$PROJECT_DIR$/includes/dbConnect.php" />
         <option value="$PROJECT_DIR$/admin/add-appartmnt.php" />
         <option value="$PROJECT_DIR$/reserveren.php" />
+        <option value="$PROJECT_DIR$/includes/dbConnect.php" />
       </list>
     </option>
   </component>
@@ -184,10 +181,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="y" value="23" />
-    <option name="width" value="961" />
-    <option name="height" value="1058" />
+    <option name="x" value="236" />
+    <option name="y" value="272" />
+    <option name="width" value="1368" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -230,6 +227,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hackaton2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackaton2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackaton2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -480,14 +491,26 @@
       <option name="project" value="LOCAL" />
       <updated>1447257753581</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="reserveren.php enzooooooooo">
+      <created>1447258675228</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1447258675228</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ja tocchhhh">
+      <created>1447259330183</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1447259330183</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="23" width="961" height="1058" extended-state="4" />
+    <frame x="236" y="272" width="1368" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.270073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18960468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -527,7 +550,9 @@
     <MESSAGE value="zeehondje database mofos" />
     <MESSAGE value="add appartment form ready :D" />
     <MESSAGE value="added a s :D" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a s :D" />
+    <MESSAGE value="reserveren.php enzooooooooo" />
+    <MESSAGE value="ja tocchhhh" />
+    <option name="LAST_COMMIT_MESSAGE" value="ja tocchhhh" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -628,14 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/dbConnect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/add-appartmnt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.254902">
@@ -703,38 +720,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reserveren.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6786543">
-          <caret line="277" column="1" selection-start-line="277" selection-start-column="1" selection-end-line="277" selection-end-column="1" />
+        <state vertical-scroll-proportion="-1.2156863">
+          <caret line="146" column="56" selection-start-line="146" selection-start-column="56" selection-end-line="146" selection-end-column="56" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="false" />
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1447258482702" expanded="true" signature="3713:3752" placeholder="SELECT ID FR..Entry..." />
-            <marker date="1447258482702" expanded="true" signature="3713:3782" placeholder="SELECT ID FR..Entry..." />
-            <marker date="1447258482702" expanded="true" signature="3713:3794" placeholder="SELECT ID FR..Entry..." />
-            <marker date="1447258482702" expanded="true" signature="3713:3796" placeholder="SELECT ID FR..Entry..." />
-            <marker date="1447258482702" expanded="true" signature="3872:4083" placeholder="INSERT INTO Appartments..." />
-            <marker date="1447258482702" expanded="true" signature="4165:4500" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="4199:4500" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="4239:4500" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="4293:4500" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="4342:4500" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="4388:4500" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="4870:5205" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="4904:5205" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="4944:5205" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="4998:5205" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="5047:5205" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="5093:5205" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="5572:5850" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="5606:5850" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="5646:5850" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="5700:5850" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="5749:5850" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="5795:5850" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="6274:6332" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="9849:9865" placeholder="..." />
-            <marker date="1447258482702" expanded="true" signature="10058:10091" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="3713:3752" placeholder="SELECT ID FR..Entry..." />
+            <marker date="1447259103482" expanded="true" signature="3713:3781" placeholder="SELECT ID FR..Entry..." />
+            <marker date="1447259103482" expanded="true" signature="3713:3793" placeholder="SELECT ID FR..Entry..." />
+            <marker date="1447259103482" expanded="true" signature="3713:3795" placeholder="SELECT ID FR..Entry..." />
+            <marker date="1447259103482" expanded="true" signature="3871:4082" placeholder="INSERT INTO Appartments..." />
+            <marker date="1447259103482" expanded="true" signature="4164:4499" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="4198:4499" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="4238:4499" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="4292:4499" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="4341:4499" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="4387:4499" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="4869:5204" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="4903:5204" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="4943:5204" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="4997:5204" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="5046:5204" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="5092:5204" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="5571:5849" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="5605:5849" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="5645:5849" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="5699:5849" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="5748:5849" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="5794:5849" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="6273:6331" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="9848:9864" placeholder="..." />
+            <marker date="1447259103482" expanded="true" signature="10057:10090" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/dbConnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28998244">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
