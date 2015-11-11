@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4117f38e-089d-4764-8e03-42985ad77641" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\HZ\sites\hackaton2015\about.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\HZ\sites\hackaton2015\post.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/clean-blog.css" afterPath="$PROJECT_DIR$/css/clean-blog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/clean-blog.min.css" afterPath="$PROJECT_DIR$/css/clean-blog.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="4117f38e-089d-4764-8e03-42985ad77641" name="Default" comment="" />
     <ignored path="hackaton2015.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -250,7 +242,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447249067220</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="oude paginas weg, nieuwe pagina's erin">
+      <created>1447250858787</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1447250858787</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -297,7 +295,8 @@
     <MESSAGE value="hoi" />
     <MESSAGE value="data" />
     <MESSAGE value="index.html update" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.html update" />
+    <MESSAGE value="oude paginas weg, nieuwe pagina's erin" />
+    <option name="LAST_COMMIT_MESSAGE" value="oude paginas weg, nieuwe pagina's erin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
