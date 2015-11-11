@@ -110,7 +110,7 @@ require_once '../includes/dbConnect.php';
 
 if(mysqli_num_rows($mysqli->query($sql)) == 0) {
 
-    $sql = "INSERT INTO Appartment (Naam, Kamers, Prijs, Personen, Notes)
+    $sql = "INSERT INTO Appartments (Naam, Kamers, Prijs, Personen, Notes)
             VALUES ('" . $naam . "' , '" . $kamers . "' , '" . $people .  "','" . $price . "' , '" . $notes . "')";
     if ($mysqli->query($sql) == TRUE) {
         echo '<div id="wrapper">
