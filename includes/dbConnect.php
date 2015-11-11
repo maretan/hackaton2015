@@ -7,7 +7,7 @@
  */
 $url = "localhost";
 $user = "root";
-$password = "";
+$password = "usbw";
 $database = "zeehondje";
 $mysqli = new mysqli($url, $user, $password, $database);
 
