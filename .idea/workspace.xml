@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4117f38e-089d-4764-8e03-42985ad77641" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\HZ\sites\hackaton2015\data\vlissingen\1920_701_cityhostel-vlissingen-slide01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\HZ\sites\hackaton2015\data\vlissingen\59eeb42c43.JPEG" afterPath="" />
-      <change type="DELETED" beforePath="D:\HZ\sites\hackaton2015\data\vlissingen\Vlissingen badstrand.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\HZ\sites\hackaton2015\data\vlissingen\vlissingen-1_400_277.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\HZ\sites\hackaton2015\data\vlissingen\vlissingen-strand.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\HZ\sites\hackaton2015\data\vlissingen\vlissingen_boulevard.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\AppartementA\ruimzicht_11_a01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementa/ruimzicht_11_a01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\AppartementA\ruimzicht_11_c01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementa/ruimzicht_11_c01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\AppartementA\ruimzicht_11_c02_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementa/ruimzicht_11_c02_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\AppartementA\ruimzicht_11_c03_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementa/ruimzicht_11_c03_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\AppartementA\ruimzicht_11_c04_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementa/ruimzicht_11_c04_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\AppartementA\ruimzicht_11_d01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementa/ruimzicht_11_d01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\AppartementA\ruimzicht_11_e01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementa/ruimzicht_11_e01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\AppartementA\ruimzicht_11_f01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementa/ruimzicht_11_f01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\AppartementA\ruimzicht_11_j01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementa/ruimzicht_11_j01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\AppartementA\ruimzicht_11_j02_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementa/ruimzicht_11_j02_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_a01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_a01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_c01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_c01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_c02_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_c02_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_c03_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_c03_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_d01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_d01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_d02_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_d02_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_e01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_e01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_e02_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_e02_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_f01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_f01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_g01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_g01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_j01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_j01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_k01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_k01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_m01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_m01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementb\ruimzicht_01_m02_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementb/ruimzicht_01_m02_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementc\noordstraat_19e_a01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementc/noordstraat_19e_a01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementc\noordstraat_19e_c01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementc/noordstraat_19e_c01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementc\noordstraat_19e_d01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementc/noordstraat_19e_d01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementc\noordstraat_19e_e01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementc/noordstraat_19e_e01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementc\noordstraat_19e_e02_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementc/noordstraat_19e_e02_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementc\noordstraat_19e_f01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementc/noordstraat_19e_f01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementc\noordstraat_19e_j01_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementc/noordstraat_19e_j01_domburg.jpg" />
-      <change type="MOVED" beforePath="D:\HZ\sites\hackaton2015\data\appartementc\noordstraat_19e_j02_domburg.jpg" afterPath="$PROJECT_DIR$/img/appartementc/noordstraat_19e_j02_domburg.jpg" />
     </list>
     <ignored path="hackaton2015.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6238532" vertical-offset="1207" max-vertical-offset="2669">
-              <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.33211008" vertical-offset="295" max-vertical-offset="2669">
+              <caret line="28" column="91" selection-start-line="28" selection-start-column="91" selection-end-line="28" selection-end-column="91" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -243,12 +204,18 @@
       <option name="project" value="LOCAL" />
       <updated>1447246082054</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="index.html update">
+      <created>1447249067220</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1447249067220</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -257,7 +224,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -289,7 +256,8 @@
     </option>
     <MESSAGE value="hoi" />
     <MESSAGE value="data" />
-    <option name="LAST_COMMIT_MESSAGE" value="data" />
+    <MESSAGE value="index.html update" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.html update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -314,8 +282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6238532" vertical-offset="1207" max-vertical-offset="2669">
-          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.33211008" vertical-offset="295" max-vertical-offset="2669">
+          <caret line="28" column="91" selection-start-line="28" selection-start-column="91" selection-end-line="28" selection-end-column="91" />
           <folding>
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
